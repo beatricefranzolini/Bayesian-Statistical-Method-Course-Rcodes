@@ -13,7 +13,7 @@ Most scripts simulate their own data, fit or sample from a Bayesian model, and t
 | Script | Main topic | What it demonstrates |
 | --- | --- | --- |
 | `Rscript01_UniformBernoulli.R` | Uniform-Bernoulli model | Bayesian updating for a coin-tossing model with a uniform prior, beta posterior, posterior mean, MLE, and asymptotic confidence intervals as sample size grows. |
-| `Rscript02_MonteCarloforPi.R` | Monte Carlo estimation | Approximation of \(\pi\) by simulating points in a square and estimating the area of the unit circle. |
+| `Rscript02_MonteCarloforPi.R` | Monte Carlo estimation | Approximation of $\pi$ by simulating points in a square and estimating the area of the unit circle. |
 | `Rscript03_MonteCarlo_invCDF_exponential.R` | Inverse-CDF sampling | Simulation from an exponential distribution using inverse transform sampling and comparison with the analytical density. |
 | `Rscript04_RejectionSampling_BetaBernoulli.R` | Rejection sampling | Sampling from a beta posterior in a Bernoulli model by accepting prior-likelihood simulations matching an observed Bernoulli outcome. |
 | `Rscript05_RejectionSampling_BetaBinomial.R` | Rejection sampling | Extension of the previous accept/reject idea to a beta-binomial posterior with observed binomial data. |
