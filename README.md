@@ -152,5 +152,10 @@ install.packages("packageName")
 ```
 
 Then rerun the script.
-3. Set a random seed for examples that depend on simulation.
-4. Update this README with the new script and any new package dependency.
+
+
+
+
+
+
+
